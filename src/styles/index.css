@@ -10,3 +10,58 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+#semaforo ul li{
+    list-style: none;
+    height:30%
+}
+
+.TrafficLight {
+    margin-top: 5%;
+    width: 25vw;
+    height: 75vh;
+    background-color: black;
+    position: relative;
+    border-radius: 10%;
+}
+
+.TrafficLight:before{
+    content: "";
+    background-color: black;
+    width: 20px;
+    height: 10vh;
+    position: absolute;
+    top: -13%
+}
+
+#rojo,#amarillo,#verde,#purple{
+    width: 80%;
+    height: 30%;
+    border-radius: 50%;
+}
+#rojo{
+    background-color: red;
+}
+#amarillo{
+    background-color: yellow;
+}
+
+#verde{
+    background-color: green;
+}
+
+#purple{
+    background-color: purple;
+   
+}
+
+.Luz{
+    box-shadow: 2px 2px 20px 10px white;
+}
+
+.ocultar{
+    display: none;
+}
+
+.mostrar{
+    display:"";
+}
